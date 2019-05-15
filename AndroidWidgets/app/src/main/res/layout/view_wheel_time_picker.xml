@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".wheel.WheelTimeView">
+
+    <com.kantek.eechat.widgets.wheel.WheelView
+        android:id="@+id/wHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_25"
+        app:wheelAtmospheric="true"
+        app:wheelCurved="true"
+        app:wheelCyclic="true"
+        app:wheelItemAlign="center" />
+
+    <com.kantek.eechat.widgets.wheel.WheelView
+        android:id="@+id/wMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:wheelAtmospheric="true"
+        app:wheelCurved="true"
+        app:wheelCyclic="true"
+        app:wheelItemAlign="center" />
+</LinearLayout>

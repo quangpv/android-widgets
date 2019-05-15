@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".wheel.WheelDateView">
+
+    <com.kantek.eechat.widgets.wheel.WheelMonthView
+        android:id="@+id/wMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_25"
+        app:wheelAtmospheric="true"
+        app:wheelCurved="true"
+        app:wheelCyclic="true"
+        app:wheelItemAlign="center" />
+
+    <com.kantek.eechat.widgets.wheel.WheelDayView
+        android:id="@+id/wDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:wheelAtmospheric="true"
+        app:wheelCurved="true"
+        app:wheelCyclic="true"
+        app:wheelItemAlign="center" />
+
+    <com.kantek.eechat.widgets.wheel.WheelYearView
+        android:id="@+id/wYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_25"
+        app:wheelAtmospheric="true"
+        app:wheelCurved="true"
+        app:wheelCyclic="true"
+        app:wheelItemAlign="center" />
+</LinearLayout>

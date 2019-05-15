@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SpannedTextView">
+        <attr name="spannedText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SignatureView">
+        <attr name="drawingColor" format="color" />
+        <attr name="drawingThickness" format="dimension" />
+        <attr name="drawingTolerance" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HtmlCheckBox">
+        <attr name="cbHtmlText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeLayout">
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="right" value="1" />
+            <enum name="center" value="0" />
+        </attr>
+
+        <attr name="sticky" format="dimension">
+            <enum name="none" value="-2" />
+            <enum name="self" value="-1" />
+        </attr>
+        <attr name="sticky_sensitivity" format="float" />
+
+        <attr name="clamp" format="dimension">
+            <enum name="parent" value="-1" />
+            <enum name="self" value="-2" />
+        </attr>
+
+        <attr name="bringToClamp" format="dimension">
+            <enum name="no" value="-1" />
+        </attr>
+
+        <attr name="swipeEnabled" format="boolean" />
+        <attr name="leftSwipeEnabled" format="boolean" />
+        <attr name="rightSwipeEnabled" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <attr name="wheelData" format="reference" />
+        <attr name="wheelPositionSelected" format="integer" />
+        <attr name="wheelTextSize" format="dimension" />
+        <attr name="wheelTextColor" format="color" />
+        <attr name="wheelSelectedTextColor" format="color" />
+        <attr name="wheelSameWidth" format="boolean" />
+        <attr name="wheelMaximumWidthText" format="string" />
+        <attr name="wheelMaximumWidthTextPosition" format="integer" />
+        <attr name="wheelVisibleItemCount" format="integer" />
+        <attr name="wheelItemSpace" format="dimension" />
+        <attr name="wheelCyclic" format="boolean" />
+        <attr name="wheelIndicator" format="boolean" />
+        <attr name="wheelIndicatorColor" format="color" />
+        <attr name="wheelIndicatorSize" format="dimension" />
+        <attr name="wheelCurtain" format="boolean" />
+        <attr name="wheelCurtainColor" format="color" />
+        <attr name="wheelAtmospheric" format="boolean" />
+        <attr name="wheelCurved" format="boolean" />
+        <attr name="wheelItemAlign" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="wheelFontPath" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ZoomEngine">
+        <attr name="hasClickableChildren" format="boolean" />
+        <attr name="overScrollHorizontal" format="boolean" />
+        <attr name="overScrollVertical" format="boolean" />
+        <attr name="overPinchable" format="boolean" />
+        <attr name="zoomEnabled" format="boolean" />
+        <attr name="flingEnabled" format="boolean" />
+        <attr name="scrollEnabled" format="boolean" />
+        <attr name="oneFingerScrollEnabled" format="boolean" />
+        <attr name="twoFingersScrollEnabled" format="boolean" />
+        <attr name="threeFingersScrollEnabled" format="boolean" />
+        <attr name="allowFlingInOverscroll" format="boolean" />
+        <attr name="verticalPanEnabled" format="boolean" />
+        <attr name="horizontalPanEnabled" format="boolean" />
+        <attr name="minZoom" format="float" />
+        <attr name="maxZoom" format="float" />
+        <attr name="minZoomType" format="enum">
+            <enum name="zoom" value="0" />
+            <enum name="realZoom" value="1" />
+        </attr>
+        <attr name="maxZoomType" format="enum">
+            <enum name="zoom" value="0" />
+            <enum name="realZoom" value="1" />
+        </attr>
+        <attr name="transformation" format="enum">
+            <enum name="centerInside" value="0" />
+            <enum name="centerCrop" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="transformationGravity">
+            <flag name="auto" value="0" />
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="center" value="0x11" />
+        </attr>
+        <attr name="alignment">
+            <flag name="top" value="0x01" />
+            <flag name="bottom" value="0x02" />
+            <flag name="center_vertical" value="0x03" />
+            <flag name="none_vertical" value="0x04" />
+            <flag name="left" value="0x10" />
+            <flag name="right" value="0x20" />
+            <flag name="center_horizontal" value="0x30" />
+            <flag name="none_horizontal" value="0x40" />
+            <flag name="center" value="0x33" />
+            <flag name="none" value="0x44" />
+        </attr>
+        <attr name="animationDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AppActionBar">
+        <attr name="showClose" format="boolean" />
+        <attr name="showBack" format="boolean" />
+        <attr name="backColor" format="color" />
+        <attr name="textRight" format="string" />
+        <attr name="title" format="string" />
+        <attr name="icon1" format="reference" />
+        <attr name="icon2" format="reference" />
+        <attr name="icon3" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="StarRatingBar">
+        <attr name="ratingBackgroundColor" format="color" />
+        <attr name="ratingColor" format="color" />
+        <attr name="rating" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordLayout">
+        <attr name="iconColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AppTextView">
+        <attr name="drawableColor" format="color" />
+    </declare-styleable>
+</resources>
